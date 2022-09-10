@@ -1,0 +1,49 @@
+body,h1,h2,h3,h4,h5,h6 
+{
+    font-family:'Times New Roman', Times, serif;
+}
+body, html 
+{
+  height: 100%;
+  background-color: #ffffff;
+  color: #682bd7;
+  background-image: url("images/customer.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+header{ 
+    text-align: center;
+    font-size: 2em ;
+    line-height: 2;
+}
+.btn-info{
+    background-color: #682bd7 !important;
+    color: #ffffff !important;
+    font-weight:750;
+    letter-spacing:1px ;
+    border: 2px solid #682bd7 !important;
+    border-radius: 8px;
+    transition: all 0.3s;
+}
+
+.btn-info:hover{
+    background-color: #682bd7 !important;
+    color: #ffffff !important;
+}
+table{
+    text-align: center;
+    border: 2px solid #ffffff ;
+    margin-top: 2%;
+    font-size: 1.2em;
+}
+th{
+    background-image: linear-gradient(#682bd7,#370665);
+   
+}
+td{
+    background-image: linear-gradient(#ffffff, #ffffff);
+}
+table, td, th {
+    border: 2px solid #ffffff);
+}
